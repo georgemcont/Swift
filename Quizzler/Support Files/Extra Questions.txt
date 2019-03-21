@@ -1,0 +1,51 @@
+
+
+        list.append(Question(inputQuestionText: "The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.", inputAnswerText: false))
+
+        list.append(Question(inputQuestionText: "No piece of square dry paper can be folded in half more than 7 times.", inputAnswerText: false))
+
+        list.append(Question(inputQuestionText: "Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.", inputAnswerText: true))
+
+
+
+        class Question {
+    let questionText: String
+    let answerText: Bool
+
+    init(inputQuestionText: String, inputAnswerText: Bool) {
+    questionText = inputQuestionText
+    answerText = inputAnswerText
+    }
+
+}
+
+class QuestionBank {
+    var list = [Question]()
+
+    init() {
+        // Creating a quiz item and appending it to the list
+        let item = Question(inputQuestionText: "Valentine\'s day is banned in Saudi Arabia.", inputAnswerText: true)
+
+        // Add the Question to the list of questions
+        list.append(item)
+
+        // skipping one step and just creating the quiz item inside the append function
+        list.append(Question(inputQuestionText: "A slug\'s blood is green.", inputAnswerText: true))
+
+        list.append(Question(inputQuestionText: "Approximately one quarter of human bones are in the feet.", inputAnswerText: true))
+
+        list.append(Question(inputQuestionText: "The total surface area of two human lungs is approximately 70 square metres.", inputAnswerText: true))
+
+        list.append(Question(inputQuestionText: "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", inputAnswerText : true))
+
+        list.append(Question(inputQuestionText: "In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.", inputAnswerText: false))
+
+        list.append(Question(inputQuestionText: "It is illegal to pee in the Ocean in Portugal.", inputAnswerText: true))
+
+        list.append(Question(inputQuestionText: "You can lead a cow down stairs but not up stairs.", inputAnswerText: false))
+
+        list.append(Question(inputQuestionText: "Google was originally called \"Backrub\".", inputAnswerText: true))
+
+        list.append(Question(inputQuestionText: "Buzz Aldrin\'s mother\'s maiden name was \"Moon\".", inputAnswerText: true))
+    }
+}

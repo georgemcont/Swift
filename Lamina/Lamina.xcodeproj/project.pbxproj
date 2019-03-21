@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7206705C216DB70700820339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7206705B216DB70700820339 /* AppDelegate.swift */; };
+		7206705E216DB70700820339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7206705D216DB70700820339 /* ViewController.swift */; };
+		72067061216DB70700820339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7206705F216DB70700820339 /* Main.storyboard */; };
+		72067063216DB70B00820339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72067062216DB70B00820339 /* Assets.xcassets */; };
+		72067066216DB70B00820339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72067064216DB70B00820339 /* LaunchScreen.storyboard */; };
+		72067071216DB70B00820339 /* LaminaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72067070216DB70B00820339 /* LaminaTests.swift */; };
+		7206707C216DB70B00820339 /* LaminaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7206707B216DB70B00820339 /* LaminaUITests.swift */; };
+		7206708C216DBC6C00820339 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7206708B216DBC6C00820339 /* LoginViewController.swift */; };
+		7206708E216DBCA000820339 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7206708D216DBCA000820339 /* GoogleService-Info.plist */; };
+		72664771216E835C00EF62AC /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72664770216E835C00EF62AC /* AddLocationViewController.swift */; };
+		72E073CE216E7092007CC119 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E073CD216E7092007CC119 /* HomeViewController.swift */; };
+		9E97EBB58137D0A5BDC05006 /* Pods_LaminaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF06093CE0BFD5AD2AEBAE /* Pods_LaminaUITests.framework */; };
+		B70BEC72320779D82C20EFC1 /* Pods_Lamina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7C26ECA826D308F135C748 /* Pods_Lamina.framework */; };
+		D089221941908BEC7EFFE93B /* Pods_LaminaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859A79CC8A31D0626ABE75B9 /* Pods_LaminaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7206706D216DB70B00820339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72067050216DB70700820339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72067057216DB70700820339;
+			remoteInfo = Lamina;
+		};
+		72067078216DB70B00820339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72067050216DB70700820339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72067057216DB70700820339;
+			remoteInfo = Lamina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D7C26ECA826D308F135C748 /* Pods_Lamina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lamina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18794C39A7A86D59EB3052C5 /* Pods-Lamina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lamina.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lamina/Pods-Lamina.release.xcconfig"; sourceTree = "<group>"; };
+		6EB1D86EDDF7F92B6F902676 /* Pods-LaminaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaminaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaminaUITests/Pods-LaminaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72067058216DB70700820339 /* Lamina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lamina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7206705B216DB70700820339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7206705D216DB70700820339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72067060216DB70700820339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72067062216DB70B00820339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72067065216DB70B00820339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72067067216DB70B00820339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7206706C216DB70B00820339 /* LaminaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaminaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72067070216DB70B00820339 /* LaminaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaminaTests.swift; sourceTree = "<group>"; };
+		72067072216DB70B00820339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72067077216DB70B00820339 /* LaminaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaminaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7206707B216DB70B00820339 /* LaminaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaminaUITests.swift; sourceTree = "<group>"; };
+		7206707D216DB70B00820339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7206708B216DBC6C00820339 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7206708D216DBCA000820339 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72664770216E835C00EF62AC /* AddLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		72E073CD216E7092007CC119 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		859A79CC8A31D0626ABE75B9 /* Pods_LaminaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaminaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D00CA0220406B883B61659 /* Pods-LaminaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaminaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaminaTests/Pods-LaminaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		990237AC213FF850423F5949 /* Pods-Lamina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lamina.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lamina/Pods-Lamina.debug.xcconfig"; sourceTree = "<group>"; };
+		CAE21AB3AE566B398C7F5827 /* Pods-LaminaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaminaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaminaUITests/Pods-LaminaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B2F589D7EA698216E37E1B /* Pods-LaminaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaminaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaminaTests/Pods-LaminaTests.release.xcconfig"; sourceTree = "<group>"; };
+		DECF06093CE0BFD5AD2AEBAE /* Pods_LaminaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaminaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72067055216DB70700820339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70BEC72320779D82C20EFC1 /* Pods_Lamina.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72067069216DB70B00820339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D089221941908BEC7EFFE93B /* Pods_LaminaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72067074216DB70B00820339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E97EBB58137D0A5BDC05006 /* Pods_LaminaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14378FBFC76F14A0A12FA09E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				990237AC213FF850423F5949 /* Pods-Lamina.debug.xcconfig */,
+				18794C39A7A86D59EB3052C5 /* Pods-Lamina.release.xcconfig */,
+				90D00CA0220406B883B61659 /* Pods-LaminaTests.debug.xcconfig */,
+				D3B2F589D7EA698216E37E1B /* Pods-LaminaTests.release.xcconfig */,
+				CAE21AB3AE566B398C7F5827 /* Pods-LaminaUITests.debug.xcconfig */,
+				6EB1D86EDDF7F92B6F902676 /* Pods-LaminaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		23015855731609F3E98521DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D7C26ECA826D308F135C748 /* Pods_Lamina.framework */,
+				859A79CC8A31D0626ABE75B9 /* Pods_LaminaTests.framework */,
+				DECF06093CE0BFD5AD2AEBAE /* Pods_LaminaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7206704F216DB70700820339 = {
+			isa = PBXGroup;
+			children = (
+				7206705A216DB70700820339 /* Lamina */,
+				7206706F216DB70B00820339 /* LaminaTests */,
+				7206707A216DB70B00820339 /* LaminaUITests */,
+				72067059216DB70700820339 /* Products */,
+				14378FBFC76F14A0A12FA09E /* Pods */,
+				23015855731609F3E98521DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72067059216DB70700820339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72067058216DB70700820339 /* Lamina.app */,
+				7206706C216DB70B00820339 /* LaminaTests.xctest */,
+				72067077216DB70B00820339 /* LaminaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7206705A216DB70700820339 /* Lamina */ = {
+			isa = PBXGroup;
+			children = (
+				7206705B216DB70700820339 /* AppDelegate.swift */,
+				7206705D216DB70700820339 /* ViewController.swift */,
+				7206708B216DBC6C00820339 /* LoginViewController.swift */,
+				72E073CD216E7092007CC119 /* HomeViewController.swift */,
+				72664770216E835C00EF62AC /* AddLocationViewController.swift */,
+				7206705F216DB70700820339 /* Main.storyboard */,
+				72067062216DB70B00820339 /* Assets.xcassets */,
+				72067064216DB70B00820339 /* LaunchScreen.storyboard */,
+				7206708D216DBCA000820339 /* GoogleService-Info.plist */,
+				72067067216DB70B00820339 /* Info.plist */,
+			);
+			path = Lamina;
+			sourceTree = "<group>";
+		};
+		7206706F216DB70B00820339 /* LaminaTests */ = {
+			isa = PBXGroup;
+			children = (
+				72067070216DB70B00820339 /* LaminaTests.swift */,
+				72067072216DB70B00820339 /* Info.plist */,
+			);
+			path = LaminaTests;
+			sourceTree = "<group>";
+		};
+		7206707A216DB70B00820339 /* LaminaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7206707B216DB70B00820339 /* LaminaUITests.swift */,
+				7206707D216DB70B00820339 /* Info.plist */,
+			);
+			path = LaminaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72067057216DB70700820339 /* Lamina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72067080216DB70B00820339 /* Build configuration list for PBXNativeTarget "Lamina" */;
+			buildPhases = (
+				3FBCAA9AC7CA19B0B00B5C64 /* [CP] Check Pods Manifest.lock */,
+				72067054216DB70700820339 /* Sources */,
+				72067055216DB70700820339 /* Frameworks */,
+				72067056216DB70700820339 /* Resources */,
+				AFC3AB1CD7DA44ACC2207ED4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lamina;
+			productName = Lamina;
+			productReference = 72067058216DB70700820339 /* Lamina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7206706B216DB70B00820339 /* LaminaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72067083216DB70B00820339 /* Build configuration list for PBXNativeTarget "LaminaTests" */;
+			buildPhases = (
+				8D31DCD09B333AF4560A62CD /* [CP] Check Pods Manifest.lock */,
+				72067068216DB70B00820339 /* Sources */,
+				72067069216DB70B00820339 /* Frameworks */,
+				7206706A216DB70B00820339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7206706E216DB70B00820339 /* PBXTargetDependency */,
+			);
+			name = LaminaTests;
+			productName = LaminaTests;
+			productReference = 7206706C216DB70B00820339 /* LaminaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72067076216DB70B00820339 /* LaminaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72067086216DB70B00820339 /* Build configuration list for PBXNativeTarget "LaminaUITests" */;
+			buildPhases = (
+				6728010CFF0DC78B0B01BEF2 /* [CP] Check Pods Manifest.lock */,
+				72067073216DB70B00820339 /* Sources */,
+				72067074216DB70B00820339 /* Frameworks */,
+				72067075216DB70B00820339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72067079216DB70B00820339 /* PBXTargetDependency */,
+			);
+			name = LaminaUITests;
+			productName = LaminaUITests;
+			productReference = 72067077216DB70B00820339 /* LaminaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72067050216DB70700820339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = wiclf;
+				TargetAttributes = {
+					72067057216DB70700820339 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					7206706B216DB70B00820339 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 72067057216DB70700820339;
+					};
+					72067076216DB70B00820339 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 72067057216DB70700820339;
+					};
+				};
+			};
+			buildConfigurationList = 72067053216DB70700820339 /* Build configuration list for PBXProject "Lamina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7206704F216DB70700820339;
+			productRefGroup = 72067059216DB70700820339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72067057216DB70700820339 /* Lamina */,
+				7206706B216DB70B00820339 /* LaminaTests */,
+				72067076216DB70B00820339 /* LaminaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72067056216DB70700820339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72067066216DB70B00820339 /* LaunchScreen.storyboard in Resources */,
+				7206708E216DBCA000820339 /* GoogleService-Info.plist in Resources */,
+				72067063216DB70B00820339 /* Assets.xcassets in Resources */,
+				72067061216DB70700820339 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7206706A216DB70B00820339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72067075216DB70B00820339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FBCAA9AC7CA19B0B00B5C64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lamina-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6728010CFF0DC78B0B01BEF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaminaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D31DCD09B333AF4560A62CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaminaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC3AB1CD7DA44ACC2207ED4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lamina/Pods-Lamina-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lamina/Pods-Lamina-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72067054216DB70700820339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7206708C216DBC6C00820339 /* LoginViewController.swift in Sources */,
+				7206705E216DB70700820339 /* ViewController.swift in Sources */,
+				72664771216E835C00EF62AC /* AddLocationViewController.swift in Sources */,
+				7206705C216DB70700820339 /* AppDelegate.swift in Sources */,
+				72E073CE216E7092007CC119 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72067068216DB70B00820339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72067071216DB70B00820339 /* LaminaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72067073216DB70B00820339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7206707C216DB70B00820339 /* LaminaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7206706E216DB70B00820339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72067057216DB70700820339 /* Lamina */;
+			targetProxy = 7206706D216DB70B00820339 /* PBXContainerItemProxy */;
+		};
+		72067079216DB70B00820339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72067057216DB70700820339 /* Lamina */;
+			targetProxy = 72067078216DB70B00820339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7206705F216DB70700820339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72067060216DB70700820339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72067064216DB70B00820339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72067065216DB70B00820339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7206707E216DB70B00820339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7206707F216DB70B00820339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72067081216DB70B00820339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990237AC213FF850423F5949 /* Pods-Lamina.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKMKGZ8EVW;
+				INFOPLIST_FILE = Lamina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiclf.Lamina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72067082216DB70B00820339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18794C39A7A86D59EB3052C5 /* Pods-Lamina.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKMKGZ8EVW;
+				INFOPLIST_FILE = Lamina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiclf.Lamina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72067084216DB70B00820339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D00CA0220406B883B61659 /* Pods-LaminaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKMKGZ8EVW;
+				INFOPLIST_FILE = LaminaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiclf.LaminaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lamina.app/Lamina";
+			};
+			name = Debug;
+		};
+		72067085216DB70B00820339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B2F589D7EA698216E37E1B /* Pods-LaminaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKMKGZ8EVW;
+				INFOPLIST_FILE = LaminaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiclf.LaminaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lamina.app/Lamina";
+			};
+			name = Release;
+		};
+		72067087216DB70B00820339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE21AB3AE566B398C7F5827 /* Pods-LaminaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKMKGZ8EVW;
+				INFOPLIST_FILE = LaminaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiclf.LaminaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lamina;
+			};
+			name = Debug;
+		};
+		72067088216DB70B00820339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB1D86EDDF7F92B6F902676 /* Pods-LaminaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKMKGZ8EVW;
+				INFOPLIST_FILE = LaminaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiclf.LaminaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lamina;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72067053216DB70700820339 /* Build configuration list for PBXProject "Lamina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7206707E216DB70B00820339 /* Debug */,
+				7206707F216DB70B00820339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72067080216DB70B00820339 /* Build configuration list for PBXNativeTarget "Lamina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72067081216DB70B00820339 /* Debug */,
+				72067082216DB70B00820339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72067083216DB70B00820339 /* Build configuration list for PBXNativeTarget "LaminaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72067084216DB70B00820339 /* Debug */,
+				72067085216DB70B00820339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72067086216DB70B00820339 /* Build configuration list for PBXNativeTarget "LaminaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72067087216DB70B00820339 /* Debug */,
+				72067088216DB70B00820339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72067050216DB70700820339 /* Project object */;
+}
